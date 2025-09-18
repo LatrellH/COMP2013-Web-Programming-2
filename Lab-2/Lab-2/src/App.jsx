@@ -21,7 +21,7 @@ function App() {
           image={sample1}
           description="Gili Air Hotel"
           rating={4.8}
-          price="589"
+          price="$589"
         />
 
         <Card
@@ -29,7 +29,7 @@ function App() {
           image={sample2}
           description="Hilton Resort"
           rating={4.2}
-          price="629"
+          price="$629"
         />
 
         <Card
@@ -37,28 +37,28 @@ function App() {
           image={sample3}
           description="Goa Resort"
           rating={3.5}
-          price="485"
+          price="$485"
         />
         <Card
           title="Bahamas"
           image={sample4}
           description="Kuredu Resort"
           rating={4.1}
-          price="729"
+          price="$729"
         />
         <Card
           title="Mauritius"
           image={sample5}
           description="Trou D'eau Douce"
           rating={4.9}
-          price="877"
+          price="$877"
         />
         <Card
           title="Bermuda"
           image={sample6}
           description="Staniel Cay Hotel"
           rating={3.2}
-          price="365"
+          price="$365"
         />
       </div>
     </div>

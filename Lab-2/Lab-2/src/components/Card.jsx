@@ -14,7 +14,7 @@ function Card({ title, image, description, rating, price }) {
 
       {/* Price anchored at bottom */}
       <div className="card-footer">
-        <p className="price">{price} / night</p>
+        <p className="price">{price}/night</p>
       </div>
     </div>
   );
