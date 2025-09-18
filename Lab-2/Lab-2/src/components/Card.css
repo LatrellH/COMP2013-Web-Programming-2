@@ -1,0 +1,43 @@
+.card {
+  width: 250px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  background-color: #fff;
+
+  /* Make card use flex column so footer sticks to bottom */
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card-title {
+  margin: 10px 0;
+}
+
+.rating.green {
+  color: green;
+  font-weight: bold;
+}
+
+.rating.red {
+  color: red;
+  font-weight: bold;
+}
+
+/* Push footer (price) to bottom */
+.card-footer {
+  margin-top: auto; /* pushes footer to bottom */
+}
+
+.price {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333;
+}
