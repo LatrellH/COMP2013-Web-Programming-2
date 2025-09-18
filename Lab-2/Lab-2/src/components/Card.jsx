@@ -9,7 +9,8 @@ function Card({ title, image, description, rating, price }) {
     <div className="card">
       <img src={image} alt={title} className="card-img" />
       <h2 className="card-title">{title}</h2>
-      <p>{description}</p>
+      <p className="description">{description}</p>
+
       <p className={`rating ${ratingClass}`}>{rating} ★</p>
 
       {/* Price anchored at bottom */}

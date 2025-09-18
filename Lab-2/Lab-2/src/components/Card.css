@@ -4,10 +4,8 @@
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
-  text-align: center;
+  text-align: left;
   background-color: #fff;
-
-  /* Make card use flex column so footer sticks to bottom */
   display: flex;
   flex-direction: column;
 }
@@ -31,9 +29,28 @@
   font-weight: bold;
 }
 
-/* Push footer (price) to bottom */
+.card h2,
+.card p {
+  margin: 4px 0; 
+}
+
+.card-title {
+  color:black;
+  margin-top: 8px; 
+}
+.description {
+  color: gray;
+  font-weight: bold;
+  margin: 4px 0;
+}
+
+
+.price {
+  margin-top: 6px; 
+}
+
 .card-footer {
-  margin-top: auto; /* pushes footer to bottom */
+  margin-top: auto;
 }
 
 .price {

@@ -40,3 +40,10 @@
   color: gray;
   margin-bottom: 20px;
 }
+
+.divider {
+  border: none;
+  height: 4px;
+  background-color: #ccc; /* light gray line */
+  margin: 15px 0 25px;   /* spacing above & below */
+}

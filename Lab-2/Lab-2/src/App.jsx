@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="app">
       <h1>Resorts Lite</h1>
+      <hr className="divider" />   {/* <-- separator line */}
 
       <div className="card-container">
         <Card
@@ -25,7 +26,7 @@ function App() {
         />
 
         <Card
-          title="seychelles"
+          title="Seychelles"
           image={sample2}
           description="Hilton Resort"
           rating={4.2}
